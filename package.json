@@ -12,5 +12,13 @@
   "dependencies": {
     "express": "^4.16.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmcdanel/homework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lmcdanel/homework/issues"
+  },
+  "homepage": "https://github.com/lmcdanel/homework#readme"
 }
