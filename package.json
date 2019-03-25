@@ -10,7 +10,7 @@
   "author": "Lindsey McDanel",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.4"
   },
   "devDependencies": {},
   "repository": {

@@ -5,8 +5,22 @@ app.get('/', function(req, res)  {
   res.sendFile(__dirname + '/index.html');
 });
 
-app.get('/user/:name', function(req, res)  {
-  res.sendFile(__dirname + '/user.html');
+app.get('/user/:id', function(req, res)  {
+
+  let message;
+
+  if (req.params.id == '1') {
+    message = "lindsey";
+  }
+  else if (req.params.id == '2') {
+    message = "chris";
+  }
+  else {
+    message = "unknown user";
+  }
+
+
+  res.json( {message: `user is ${message}`} );
 });
 
 app.use(express.static('public'));
